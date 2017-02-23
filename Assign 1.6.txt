@@ -1,0 +1,67 @@
+1.sum of two integers -hardcode program
+
+import java.util.*;
+public class acad
+{
+public static void main(String args[])
+{
+	int s1=6;
+	int s2=6;
+	int sum=s1+s2;
+	System.out.println(sum);
+}
+}
+
+output:
+12
+
+=========================================================
+
+
+
+2.sum of two integers-get input from user
+
+import java.util.*;
+public class acad
+{
+public static void main(String args[])
+{
+	Scanner sc=new Scanner(System.in);
+	int s1=sc.nextInt();
+        sc.nextLine();
+	int s2=sc.nextInt();
+	int sum=s1+s2;
+	System.out.println("sum is "+sum);
+}
+}
+output:
+6
+3
+sum is 9
+
+======================================================
+
+3.sum of two integers=using sum method
+
+import java.util.*;
+public class acad
+{
+public static void main(String args[])
+{
+	Scanner sc=new Scanner(System.in);
+	int c=sc.nextInt();
+        sc.nextLine();
+	int d=sc.nextInt();
+	sum(c,d);	
+}
+static void sum(int a,int b)
+{
+	
+	int sum=a+b;
+	System.out.println("sum is "+sum);
+}
+}
+output:
+5
+8
+sum is 13
